@@ -142,6 +142,3 @@ For data requests, questions, or concerns:
 **Email:** nfvwzhbrbw@privaterelay.appleid.com
 
 ---
-
-**⚠️ Note:** This text is a draft. Before publishing, please have a
-legal professional review it (especially for GDPR and KVKK compliance).

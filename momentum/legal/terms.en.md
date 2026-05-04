@@ -135,6 +135,3 @@ For questions:
 **Email:** nfvwzhbrbw@privaterelay.appleid.com
 
 ---
-
-**⚠️ Note:** This text is a draft. Before publishing, please have a
-legal professional review it.

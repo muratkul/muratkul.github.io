@@ -138,6 +138,3 @@ Sorularınız için:
 **E-posta:** nfvwzhbrbw@privaterelay.appleid.com
 
 ---
-
-**⚠️ Not:** Bu metin örnek / draft niteliğindedir. Yayına almadan önce
-bir hukuk profesyoneline gözden geçirtmeniz önerilir.

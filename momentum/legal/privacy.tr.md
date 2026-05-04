@@ -146,7 +146,3 @@ Veri talepleri, sorular veya endişeler için:
 **E-posta:** nfvwzhbrbw@privaterelay.appleid.com
 
 ---
-
-**⚠️ Not:** Bu metin örnek / draft niteliğindedir. Yayına almadan önce
-bir hukuk profesyoneline (özellikle KVKK ve GDPR uyum açısından)
-göstermeniz önerilir.
