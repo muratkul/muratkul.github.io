@@ -33,12 +33,49 @@ You enter this data yourself; we don't pull it from anywhere:
   is **not persisted** on the device — all user data lives in Google
   Cloud Firestore.
 
-### 1.4. Data we don't collect
+### 1.4. Diagnostic data (crash reports)
+- When the app crashes unexpectedly, **Firebase Crashlytics**
+  automatically collects:
+  - Device model, OS version, app version
+  - Stack trace and app state
+  - Anonymous crash id
+- This data **does not include your financial information** (asset,
+  liability, snapshot amounts are never sent).
+- Collected only in release builds; disabled in development and
+  debug sessions.
+- Purpose: to diagnose and fix errors in production.
+
+### 1.5. Data we don't collect
 - ❌ Advertising identifiers (IDFA / GAID)
 - ❌ Location data
 - ❌ Contacts, photos, or file system access
 - ❌ Usage analytics or behavior tracking (no third-party analytics SDK)
 - ❌ Bank API integration (manual data entry only)
+
+### 1.6. Data categories that may be added later
+
+The following data types are **not collected today**. If a future
+release activates them, we'll update this policy and show an in-app
+notice. Unless we say so explicitly, we don't collect data in these
+categories:
+
+- **Push notification tokens**: If we add notifications, an anonymous
+  device token issued by Firebase Cloud Messaging will be stored.
+- **Anonymous usage metrics**: Which screens are opened how many times,
+  app version distribution — without any personal data.
+- **Payment data**: If paid features are introduced, payments are
+  processed by **Apple App Store / Google Play**. We never see your
+  card details; we only receive receipt verification to confirm your
+  subscription status.
+- **Open Banking data** (opt-in): If we add a bank-account linking
+  feature, transaction history and balance are pulled with your
+  explicit consent. This feature is optional; if you don't link an
+  account, no banking data is collected.
+- **AI / recommendation engine** (opt-in): If we add AI-based analysis,
+  only the data you explicitly approve is sent to the AI provider.
+  It is not retained at the provider.
+
+**None** of these will collect data without explicit activation by you.
 
 ---
 
@@ -70,13 +107,27 @@ https://firebase.google.com/support/privacy
 
 ## 4. Third-Party Services
 
+### 4.1. Services in use today
+
 | Service | Purpose | Data sent |
 |---|---|---|
 | Firebase Authentication (Google) | User authentication | Email, password hash |
 | Cloud Firestore (Google) | Data storage and sync | Financial data, preferences |
+| Firebase Crashlytics (Google) | Crash reports (release builds) | Device model, OS version, stack trace — no financial data |
 | OpenExchangeRates API | Live exchange rates | Anonymous API request only — no user data sent |
 
 Apple's own policies apply during App Store download/install.
+
+### 4.2. Services that may be used later
+
+The services below are not active today. When activated, this table
+will be updated and an in-app notice will be shown:
+
+- **Firebase Cloud Messaging** (Google) — for push notifications
+- **Apple StoreKit / Google Play Billing** — for paid features
+- **Open Banking providers** — for opt-in bank account linking
+- **AI providers** (e.g. Anthropic, OpenAI) — for opt-in recommendation
+  engine
 
 ---
 
@@ -140,5 +191,3 @@ For material changes, we'll also show an in-app notice.
 
 For data requests, questions, or concerns:  
 **Email:** nfvwzhbrbw@privaterelay.appleid.com
-
----

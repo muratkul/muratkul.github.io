@@ -31,9 +31,20 @@ investment account.
 
 ## 3. Pricing
 
-Momentum v1.0 is offered **free of charge**. If we add paid features in
-the future, these Terms will be updated and existing users will be
-notified in advance.
+Momentum v1.0 is offered **free of charge**.
+
+Paid features (subscription or one-time in-app purchase) may be added
+in future releases. If so:
+
+- Paid features will be **opt-in** — existing free features remain
+  usable, or limited versions of them are preserved.
+- Payments are processed by **Apple App Store** or **Google Play**;
+  Momentum does not receive payments directly and does not see your
+  card details.
+- Subscription cancellations and refund requests are subject to
+  Apple's / Google's respective policies.
+- We will give existing users an in-app notice before any paid tier
+  is introduced.
 
 ---
 
@@ -113,7 +124,35 @@ These limitations apply subject to applicable consumer protection laws.
 
 ---
 
-## 11. Changes
+## 11. Future Features and Reservation of Rights
+
+Momentum is under active development. We reserve the following rights:
+
+- **Adding new features:** Crash reporting, push notifications,
+  anonymous usage metrics, cloud backup, AI-based recommendations,
+  Open Banking integration, crypto exchange APIs, multi-account
+  (shared wallet), a web version, and similar features may be added
+  in future releases.
+- **Changing or removing features:** A feature's design, behavior, or
+  availability may change; rarely, a feature may be removed. We'll
+  show an in-app notice for material changes.
+- **Opt-in requirement for third-party integrations:** New third-party
+  integrations such as banking, crypto, or AI services will not be
+  enabled by default — they require your explicit consent.
+- **Data export format:** CSV / PDF export formats may evolve over
+  time; backwards-compatibility with older export versions is not
+  guaranteed.
+- **Beta features:** We may run experimental features available to a
+  limited group of users; these may change or be removed.
+- **Service shutdown:** If we need to discontinue the service entirely,
+  the notice and data-export rights in Section 10 apply.
+
+This reservation lets us evolve the app without breaching these Terms.
+All changes are subject to the procedure in **Section 12 (Changes)**.
+
+---
+
+## 12. Changes
 
 If these Terms are updated, the "Last updated" date will change. For
 material changes, we'll show an in-app notice. Continued use of
@@ -121,7 +160,7 @@ Momentum after an update means you accept the new Terms.
 
 ---
 
-## 12. Governing Law and Disputes
+## 13. Governing Law and Disputes
 
 - These Terms are governed by the laws of the Republic of Türkiye.
 - Disputes will be resolved in Istanbul courts.
@@ -129,9 +168,7 @@ Momentum after an update means you accept the new Terms.
 
 ---
 
-## 13. Contact
+## 14. Contact
 
 For questions:  
 **Email:** nfvwzhbrbw@privaterelay.appleid.com
-
----

@@ -31,9 +31,20 @@ Momentum banka, kripto borsa veya yatırım hesabınıza bağlanmaz.
 
 ## 3. Ücret
 
-Momentum v1.0 **ücretsiz** sunulmaktadır. Gelecekte ücretli özellikler
-eklenirse, bu Şartlar güncellenir ve mevcut kullanıcılara önceden
-bildirilir.
+Momentum v1.0 **ücretsiz** sunulmaktadır.
+
+Gelecekte ücretli özellikler (abonelik veya tek seferlik satın alım)
+eklenebilir. Bu durumda:
+
+- Ücretli özellikler **opt-in** olur — mevcut ücretsiz özellikler
+  kullanılmaya devam edilebilir veya bu özelliklerin sınırlı sürümleri
+  korunur.
+- Ödemeler **Apple App Store** veya **Google Play** üzerinden işlenir;
+  Momentum doğrudan ödeme almaz, kart bilginiz bizimle paylaşılmaz.
+- Aboneliği iptal etme veya iade talebi Apple / Google'ın ilgili
+  politikalarına tabidir.
+- Ücretli sürüme geçişten önce mevcut kullanıcılara uygulama içi
+  bildirim ile haber verilir.
 
 ---
 
@@ -114,7 +125,39 @@ Bu sınırlamalar, geçerli tüketici koruma yasaları çerçevesinde uygulanır
 
 ---
 
-## 11. Değişiklikler
+## 11. İleriki Özellikler ve Hakların Saklı Tutulması
+
+Momentum aktif olarak geliştirilmektedir. Aşağıdaki haklarımızı saklı
+tutarız:
+
+- **Yeni özellikler ekleme:** Çökme raporlama, push bildirimi, anonim
+  kullanım metriği, bulut yedekleme, AI tabanlı öneri motoru, Açık
+  Bankacılık (Open Banking) entegrasyonu, kripto borsa API'leri, çoklu
+  hesap (paylaşımlı cüzdan), web sürümü ve benzeri özellikler ileriki
+  sürümlerde eklenebilir.
+- **Mevcut özellikleri değiştirme veya kaldırma:** Bir özellik
+  tasarımı, davranışı veya kullanılabilirliği güncellenebilir; nadir
+  olarak bir özellik kaldırılabilir. Önemli değişikliklerde uygulama
+  içi bildirim gösterilir.
+- **Üçüncü taraf entegrasyonlarda opt-in zorunluluğu:** Banka, kripto
+  veya AI gibi yeni üçüncü taraf entegrasyonları, açık rızanız olmadan
+  varsayılan olarak aktif edilmez.
+- **Veri export formatı:** CSV / PDF formatları zaman içinde
+  güncellenebilir; eski sürüm export'larıyla geriye dönük uyum garanti
+  edilmez.
+- **Beta özellikler:** Sınırlı kullanıcı grubuna açılan deneysel
+  özellikler tanımlayabiliriz; bunlar ileride değişebilir veya
+  kaldırılabilir.
+- **Servisi sonlandırma:** Servisin tümünü kapatmamız gerekirse
+  Bölüm 10'daki bildirim ve veri export imkanı geçerlidir.
+
+Bu hakların saklı tutulması, mevcut Şartları ihlal etmeden değişiklik
+yapabilmemizi sağlar. Tüm değişiklikler **Bölüm 12 (Değişiklikler)**
+prosedürüne tabidir.
+
+---
+
+## 12. Değişiklikler
 
 Bu Şartlar güncellenirse, "Son güncelleme" tarihi değişir. Önemli
 değişiklikler için uygulama içinde bildirim gösterilir. Şartlar
@@ -123,7 +166,7 @@ güncellendikten sonra Momentum'u kullanmaya devam etmeniz, yeni
 
 ---
 
-## 12. Geçerli Hukuk ve Uyuşmazlık
+## 13. Geçerli Hukuk ve Uyuşmazlık
 
 - Bu Şartlar Türkiye Cumhuriyeti hukukuna tabidir.
 - Uyuşmazlıklar İstanbul mahkemelerinde çözülür.
@@ -132,9 +175,7 @@ güncellendikten sonra Momentum'u kullanmaya devam etmeniz, yeni
 
 ---
 
-## 13. İletişim
+## 14. İletişim
 
 Sorularınız için:  
 **E-posta:** nfvwzhbrbw@privaterelay.appleid.com
-
----

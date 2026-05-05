@@ -33,12 +33,49 @@ Bu veriler **siz** girersiniz; biz size sormayız, otomatik almayız:
   veriniz cihazda **kalıcı olarak** tutulmaz; tüm kullanıcı verisi
   Google Cloud Firestore üzerindedir.
 
-### 1.4. Toplamadığımız veriler
+### 1.4. Tanı verileri (çökme raporları)
+- Uygulama beklenmedik şekilde kapandığında, **Firebase Crashlytics**
+  aracılığıyla aşağıdaki teknik bilgiler otomatik olarak toplanır:
+  - Cihaz modeli, işletim sistemi sürümü, uygulama sürümü
+  - Hata izi (stack trace) ve uygulama durumu
+  - Anonim crash id
+- Bu veri **kişisel finans bilgilerinizi içermez** (varlık, borç,
+  snapshot tutarları gönderilmez).
+- Yalnızca release build'lerde toplanır; geliştirme ve debug
+  oturumlarında devre dışıdır.
+- Amacı: prod ortamda oluşan hataları teşhis edip düzeltmek.
+
+### 1.5. Toplamadığımız veriler
 - ❌ Reklam tanımlayıcıları (IDFA / GAID)
 - ❌ Konum verisi
 - ❌ Rehber, fotoğraf, dosya erişimi
 - ❌ Kullanım analitiği / davranış izleme (3. taraf analytics SDK yok)
 - ❌ Banka API entegrasyonu (manuel veri girişi)
+
+### 1.6. İleride eklenebilecek veri kategorileri
+
+Aşağıdaki veri türleri **şu an toplanmamaktadır**. Gelecekteki bir
+sürümde aktive edilirse, bu politikayı güncelleyip uygulama içinde
+bildirim göstereceğiz. Açıkça belirtmediğimiz sürece bu kategorilerde
+veri toplamıyoruz:
+
+- **Push bildirim token'ı**: Bildirim aboneliği eklersek, Firebase Cloud
+  Messaging tarafından üretilen anonim cihaz token'ı saklanır.
+- **Anonim kullanım metriği**: Hangi ekranların kaç kere açıldığı,
+  uygulama sürüm dağılımı (kişisel veri içermeden).
+- **Ödeme verisi**: İleride ücretli özellik eklenirse, ödemeler **Apple
+  App Store / Google Play** tarafından işlenir. Kart bilginizi biz
+  görmeyiz; yalnızca abonelik durumunu doğrulamak için makbuz
+  alırız.
+- **Açık Bankacılık (Open Banking) verileri** (opt-in): Banka hesabı
+  bağlama özelliği eklenirse, açık rızanızla işlem geçmişi ve bakiye
+  çekilir. Bu özellik isteğe bağlı olur; bağlamazsanız hiçbir banka
+  verisi alınmaz.
+- **AI / öneri motoru** (opt-in): İleride AI tabanlı analiz özellikleri
+  eklenirse, sadece açık onayınız ile seçtiğiniz veriler AI sağlayıcıya
+  gönderilir. Veri sağlayıcı tarafında saklanmaz.
+
+Bu özelliklerin **hiçbiri** açıkça aktive edilmeden veri toplamaz.
 
 ---
 
@@ -70,14 +107,29 @@ https://firebase.google.com/support/privacy
 
 ## 4. Üçüncü Taraf Hizmetler
 
+### 4.1. Şu an kullanılan hizmetler
+
 | Hizmet | Amaç | Aktarılan veri |
 |---|---|---|
 | Firebase Authentication (Google) | Kullanıcı kimlik doğrulama | E-posta, şifre hash |
 | Cloud Firestore (Google) | Veri saklama ve sync | Finansal veriler, tercihler |
+| Firebase Crashlytics (Google) | Çökme raporları (release build) | Cihaz modeli, OS sürümü, hata izi — finansal veri içermez |
 | OpenExchangeRates API | Güncel döviz kuru | Yalnızca anonim API isteği — kullanıcı verisi gönderilmez |
 
 Apple App Store üzerinden indirme/yükleme sürecinde Apple'ın kendi
 politikaları geçerlidir.
+
+### 4.2. İleride kullanılabilecek hizmetler
+
+Aşağıdaki hizmetler şu an aktif değildir; aktive edildiklerinde bu tablo
+güncellenir ve uygulama içinde bildirim gösterilir:
+
+- **Firebase Cloud Messaging** (Google) — push bildirimleri için
+- **Apple StoreKit / Google Play Billing** — ücretli özellikler için
+- **Açık Bankacılık (Open Banking) sağlayıcıları** — opt-in banka
+  bağlantısı için
+- **AI sağlayıcıları** (örn. Anthropic, OpenAI) — opt-in öneri motoru
+  için
 
 ---
 
@@ -144,5 +196,3 @@ göstereceğiz.
 
 Veri talepleri, sorular veya endişeler için:  
 **E-posta:** nfvwzhbrbw@privaterelay.appleid.com
-
----
