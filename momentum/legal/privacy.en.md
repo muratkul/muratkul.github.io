@@ -1,7 +1,7 @@
 # Momentum — Privacy Policy
 
 **Effective date:** 2026-05-04  
-**Last updated:** 2026-05-04  
+**Last updated:** 2026-05-06  
 **Data controller:** Murat Kul (independent developer)  
 **Contact:** nfvwzhbrbw@privaterelay.appleid.com
 
@@ -19,6 +19,13 @@ We only collect data that's necessary to run the app.
 - **Email address** — for sign-up and login
 - **Password** — stored as a hash by Firebase Authentication. We never
   see your plaintext password and don't store it on our servers.
+- **Transactional emails** — Firebase Authentication automatically
+  sends emails to your address for account-security purposes:
+  - **Verification** email after sign-up
+  - **Password reset** link when you request one
+  - Security notifications for account changes (when needed)
+  We don't author the content of these emails; Firebase's standard
+  templates are used. We do not send marketing or newsletter emails.
 
 ### 1.2. Financial data (app content)
 You enter this data yourself; we don't pull it from anywhere:
