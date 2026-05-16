@@ -3,6 +3,8 @@ layout: default
 title: Ads
 ---
 
+> **Languages:** **English** · [Türkçe](./ads-tr) · [Español](./ads-es)
+
 # Ads in Sudoku Arena Online
 
 Sudoku Arena Online is free to play. The work behind the puzzle
