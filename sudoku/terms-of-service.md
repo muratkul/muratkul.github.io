@@ -5,8 +5,8 @@ title: Terms of Service
 
 # Terms of Service
 
-**Effective date:** May 9, 2026
-**Last updated:** May 9, 2026
+**Effective date:** May 16, 2026
+**Last updated:** May 16, 2026
 
 These Terms of Service ("Terms") form a binding agreement between you
 and **Murat Kul** ("we", "us"), the developer of the
@@ -86,10 +86,32 @@ for any commercial purpose without our prior written consent.
 ## 6. Service availability
 
 The App relies on third-party infrastructure (Firebase, Google Cloud,
-Apple ID, Google Sign-In). We make a reasonable effort to keep the App
-available, but we do not guarantee uninterrupted access. We may modify,
-suspend, or discontinue the App or any feature at any time, with or
-without notice.
+Apple ID, Google Sign-In, Google AdMob). We make a reasonable effort
+to keep the App available, but we do not guarantee uninterrupted
+access. We may modify, suspend, or discontinue the App or any feature
+at any time, with or without notice.
+
+---
+
+## 6a. Ads and rewarded content
+
+The App is free to play and is supported by advertising delivered by
+Google AdMob. By default we request only non-personalised ads — we do
+not enable cross-app tracking, profile-building, or audience targeting.
+See section 2.4 of the [Privacy Policy](./privacy-policy) for what
+AdMob collects on our behalf.
+
+Some optional in-game rewards (for example, an extra puzzle hint) are
+unlocked by watching a rewarded advertisement. Choosing to watch is
+always your own decision; you can decline at any time and continue
+playing without the bonus. Network or ad-availability conditions may
+occasionally make an ad unavailable; in that case the reward path is
+simply hidden until an ad can be served.
+
+You agree not to attempt to defraud the advertising network — for
+example by repeatedly tapping ads, automating clicks, or modifying the
+App to spoof reward signals. We may suspend accounts we reasonably
+believe are engaging in such behaviour, in line with section 3.
 
 ---
 

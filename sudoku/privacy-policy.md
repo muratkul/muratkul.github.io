@@ -5,8 +5,8 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Effective date:** May 9, 2026
-**Last updated:** May 9, 2026
+**Effective date:** May 16, 2026
+**Last updated:** May 16, 2026
 
 This Privacy Policy explains how **Sudoku Arena Online** ("the App",
 "we", "us") collects, uses, and protects information when you use our
@@ -35,9 +35,9 @@ advertising or marketing partners.
 
 ## 2. What we collect
 
-We collect only what is necessary to make the App work. We do **not**
-collect contacts, photos, location, health data, financial data, or any
-form of advertising identifier.
+We collect only what is necessary to make the App work and to serve
+non-personalised ads. We do **not** collect contacts, photos,
+location, health data, or financial data.
 
 ### 2.1 Account data
 
@@ -73,6 +73,32 @@ servers:
 - Your theme, language, haptics, and other preferences, in
   SharedPreferences
 
+### 2.4 Advertising data
+
+The App uses Google AdMob to serve ads. AdMob may collect or process
+the following on our behalf:
+
+- **Apple's Advertising Identifier (IDFA)** on iOS — used by AdMob to
+  prevent ad fraud and to attribute installs via Apple's SKAdNetwork
+  framework. We request only **non-personalised ads** (`npa=1`), which
+  means AdMob does **not** use the IDFA to build an advertising
+  profile of you. We do not show the App Tracking Transparency prompt
+  because we do not enable cross-app tracking.
+- **Google Advertising ID (AAID)** on Android — equivalent role to
+  IDFA, with the same non-personalised configuration.
+- **Coarse signals** that AdMob needs to comply with COPPA / GDPR /
+  IAB TCF (e.g. country, device model, OS version, IP address used
+  only to derive country). These are processed by Google and never
+  surfaced to us as developers.
+- **Reward signals** when you choose to watch a rewarded ad in
+  exchange for an extra hint — limited to "did the user complete the
+  watch?", never the contents of the ad.
+
+You can turn off Limit Ad Tracking on iOS (Settings → Privacy &
+Security → Apple Advertising) or reset your Advertising ID on Android
+(Settings → Google → Ads). When Limit Ad Tracking is on, AdMob still
+serves non-personalised ads but with reduced fraud detection signals.
+
 ---
 
 ## 3. Why we collect it
@@ -83,9 +109,14 @@ servers:
 | Pair you with another player | Matchmaking ticket, account data |
 | Run a match and let your opponent see your progress | Gameplay data |
 | Show your "Continue" card on the home screen | On-device data |
+| Serve non-personalised ads + fraud-check the request | Advertising data |
+| Attribute installs through Apple's SKAdNetwork | Advertising data |
 
-We do **not** use your data for advertising, analytics, profiling, or
-sale to third parties.
+We do **not** sell your data to third parties, build a marketing
+profile from it, or share it with data brokers. The advertising
+identifiers listed in section 2.4 are used **only for non-personalised
+ads and fraud detection**; we have not enabled any tracking SDK,
+attribution SDK, or audience-segmentation feature.
 
 ---
 
@@ -96,17 +127,28 @@ The App uses **Firebase**, operated by Google LLC, as its backend:
 - **Firebase Authentication** — handles sign-in with Google, Apple, or
   anonymous mode.
 - **Cloud Firestore** — stores match documents and user records.
+- **Firebase Remote Config** — fetches runtime configuration
+  (matchmaking timeouts, ad placement flags, etc.). No personal data
+  is sent — only a generic install identifier so Google can deliver
+  the right config payload.
+- **Firebase Crashlytics** — records non-personalised crash
+  diagnostics, sent only when the App crashes.
 - **Google Sign-In** and **Sign in with Apple** — federated identity
   providers.
+
+The App also embeds **Google AdMob** (operated by Google LLC) to
+serve ads. See section 2.4 for what AdMob collects and how it's
+configured.
 
 These services act as **data processors** on our behalf. They do not
 own your data. Their privacy practices are described at:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
+- [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites)
 - [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 
-We do not embed any other SDKs (no analytics, no ads, no tracking, no
-crash-reporting at this time).
+The list of third-party services may change in future versions;
+section 11 covers how we communicate those updates.
 
 ---
 
