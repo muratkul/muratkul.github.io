@@ -135,9 +135,11 @@ punitive damages, or any loss of profits, data, or goodwill, arising
 out of or in connection with your use of the App, even if we have been
 advised of the possibility of such damages.
 
-Our total liability to you for any claim arising out of or relating to
-these Terms or the App shall not exceed **fifty Turkish Liras (₺50)**
-or the equivalent in your local currency.
+Our total liability to you for any claim arising out of or relating
+to these Terms or the App shall not exceed the **greater** of
+(a) the total amount you have paid us for the App in the twelve (12)
+months preceding the event giving rise to the claim, or (b) **fifty
+Turkish Liras (₺50)** (or the equivalent in your local currency).
 
 Nothing in these Terms limits our liability for matters that cannot be
 limited under applicable law (such as fraud or gross negligence).

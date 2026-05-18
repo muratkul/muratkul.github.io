@@ -50,9 +50,8 @@ conservadora posible — solo la ubicación recompensada está activa.
 | **Banner — Dentro del juego** | Un pequeño banner debajo del teclado numérico mientras juega. Misma ubicación cuidadosa — nunca sobre el tablero. | **Inactivo** al lanzar |
 | **Interstitial — Inicio de partida** | Un anuncio a pantalla completa antes de que comience una partida multijugador, con botón Cerrar visible. Como mucho una vez por partida. | **Inactivo** al lanzar |
 
-La suscripción Pro (planificada, no lanzada) elimina las cuatro
-ubicaciones. Actualmente no vendemos una actualización Pro en esta
-versión.
+Una actualización Pro sin anuncios está planificada para un
+lanzamiento futuro; los detalles se confirmarán cuando salga.
 
 ---
 

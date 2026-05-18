@@ -144,8 +144,10 @@ da iyi niyet kaybından, böyle bir zarar olasılığı hakkında bize
 önceden bilgi verilmiş olsa bile, sorumlu olmayacağız.
 
 Bu Koşullar veya Uygulama ile ilgili herhangi bir talep için size
-karşı toplam sorumluluğumuz **elli Türk Lirası (₺50)** veya yerel
-para biriminizdeki karşılığını aşmayacaktır.
+karşı toplam sorumluluğumuz, şu iki tutardan **büyük olanını**
+aşmayacaktır: (a) talebe yol açan olaydan önceki on iki (12) ay
+içinde Uygulama için bize ödediğiniz toplam tutar veya (b) **elli
+Türk Lirası (₺50)** (ya da yerel para biriminizdeki karşılığı).
 
 Bu Koşullardaki hiçbir hüküm, geçerli yasalar uyarınca
 sınırlandırılamayacak konulardaki sorumluluğumuzu (örneğin

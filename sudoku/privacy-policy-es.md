@@ -29,9 +29,9 @@ está de acuerdo, por favor no use la App.
 | País | Türkiye |
 | Contacto | nfvwzhbrbw@privaterelay.appleid.com |
 
-Este es un proyecto independiente. No tenemos empleados, ni
-procesadores de datos de terceros más allá de los proveedores de
-infraestructura listados abajo, ni socios de publicidad o marketing.
+Este es un proyecto independiente. Los proveedores de infraestructura
+listados en la sección 4 (Firebase / Google AdMob) son los únicos
+terceros que procesan datos en nuestro nombre.
 
 ---
 
@@ -117,12 +117,12 @@ señales de detección de fraude reducidas.
 | Mostrar su tarjeta "Continuar" en la pantalla de inicio | Datos en el dispositivo |
 | Servir anuncios no personalizados + comprobar fraude | Datos publicitarios |
 | Atribuir instalaciones mediante SKAdNetwork de Apple | Datos publicitarios |
+| Diagnosticar y corregir fallos | Datos de diagnóstico de fallos (Crashlytics) |
 
-**No** vendemos sus datos a terceros, **no** creamos un perfil de
-marketing a partir de ellos y **no** los compartimos con corredores
-de datos. Los identificadores publicitarios listados en la sección
-2.4 se utilizan **únicamente para anuncios no personalizados y
-detección de fraude**; no hemos habilitado ningún SDK de rastreo,
+No vendemos sus datos personales ni creamos un perfil de marketing a
+partir de ellos. Los identificadores publicitarios listados en la
+sección 2.4 se utilizan **únicamente para anuncios no personalizados
+y detección de fraude**; no hemos habilitado ningún SDK de rastreo,
 SDK de atribución ni función de segmentación de audiencias.
 
 ---

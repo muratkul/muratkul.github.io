@@ -50,8 +50,8 @@ yuva açık.
 | **Banner — Oyun içi** | Oynarken sayı pad'inin altında küçük bir banner. Aynı eli-uzaktan tutma yerleşimi — tahta üzerinde asla. | **Kapalı** (lansmanda) |
 | **Interstitial — Maç başında** | Çok oyunculu maç başlamadan önce tam ekran reklam, net Kapat butonuyla. Maç başına en fazla bir kez. | **Kapalı** (lansmanda) |
 
-Pro üyelik (planlandı, henüz yayında değil) bu dört yuvayı kaldırır.
-Şu sürümde Pro yükseltmesi satışta değil.
+Reklamsız bir Pro yükseltmesi ileride planlanıyor; ayrıntılar
+yayınlandığında netleşecek.
 
 ---
 

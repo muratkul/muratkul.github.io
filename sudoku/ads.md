@@ -50,8 +50,8 @@ rewarded slot is on.
 | **Banner — In-game** | A small banner sits below the number pad while you play. Same hands-off placement — never on the board. | **Off** at launch |
 | **Interstitial — Match start** | A full-screen ad before a multiplayer match begins, with a clear Close button. Shown at most once per match. | **Off** at launch |
 
-The Pro subscription (planned, not yet released) removes all four
-slots. We do not currently sell a Pro upgrade in this version.
+An ad-free Pro upgrade is planned for a future release; details will
+be confirmed when it ships.
 
 ---
 

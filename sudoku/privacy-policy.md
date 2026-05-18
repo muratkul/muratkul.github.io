@@ -29,9 +29,9 @@ not agree, please do not use the App.
 | Country | Türkiye |
 | Contact | nfvwzhbrbw@privaterelay.appleid.com |
 
-This is an indie project. We have no employees, no third-party data
-processors beyond the infrastructure providers listed below, and no
-advertising or marketing partners.
+This is an indie project. The infrastructure providers listed in
+section 4 (Firebase / Google AdMob) are the only third parties that
+process data on our behalf.
 
 ---
 
@@ -113,12 +113,13 @@ serves non-personalised ads but with reduced fraud detection signals.
 | Show your "Continue" card on the home screen | On-device data |
 | Serve non-personalised ads + fraud-check the request | Advertising data |
 | Attribute installs through Apple's SKAdNetwork | Advertising data |
+| Diagnose and fix crashes | Crash diagnostic data (Crashlytics) |
 
-We do **not** sell your data to third parties, build a marketing
-profile from it, or share it with data brokers. The advertising
-identifiers listed in section 2.4 are used **only for non-personalised
-ads and fraud detection**; we have not enabled any tracking SDK,
-attribution SDK, or audience-segmentation feature.
+We do not sell your personal data and we do not build a marketing
+profile from it. The advertising identifiers listed in section 2.4
+are used **only for non-personalised ads and fraud detection**; we
+have not enabled any tracking SDK, attribution SDK, or audience-
+segmentation feature.
 
 ---
 

@@ -145,8 +145,11 @@ o reputación, derivados de o en relación con su uso de la App,
 incluso si se nos ha informado de la posibilidad de tales daños.
 
 Nuestra responsabilidad total ante usted por cualquier reclamación
-derivada de o relacionada con estos Términos o la App no excederá
-**cincuenta liras turcas (₺50)** o el equivalente en su moneda local.
+derivada de o relacionada con estos Términos o la App no excederá la
+**mayor** de las siguientes cantidades: (a) el importe total que nos
+haya pagado por la App durante los doce (12) meses anteriores al
+hecho que dio lugar a la reclamación, o (b) **cincuenta liras turcas
+(₺50)** (o su equivalente en su moneda local).
 
 Nada en estos Términos limita nuestra responsabilidad por asuntos que
 no pueden limitarse bajo la ley aplicable (como fraude o negligencia

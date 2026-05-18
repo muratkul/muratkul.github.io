@@ -30,9 +30,9 @@ olursunuz. Kabul etmiyorsanız lütfen Uygulamayı kullanmayın.
 | Ülke | Türkiye |
 | İletişim | nfvwzhbrbw@privaterelay.appleid.com |
 
-Bu bağımsız bir projedir. Aşağıda listelenen altyapı sağlayıcıları
-dışında bir veri işleyenimiz, çalışanımız veya reklam/pazarlama
-ortağımız yoktur.
+Bu bağımsız bir projedir. Bölüm 4'te listelenen altyapı sağlayıcıları
+(Firebase / Google AdMob), bizim adımıza veri işleyen tek üçüncü
+taraflardır.
 
 ---
 
@@ -113,13 +113,13 @@ dolandırıcılık tespit sinyalleri azalır.
 | Ana ekranda "Devam" kartını göstermek | Cihazda kalan veriler |
 | Kişiselleştirilmemiş reklam servis etmek + dolandırıcılık kontrolü | Reklam verileri |
 | Apple SKAdNetwork üzerinden yükleme atfı | Reklam verileri |
+| Çökmeleri tespit etmek ve düzeltmek | Çökme tanı verileri (Crashlytics) |
 
-Verilerinizi üçüncü taraflara **satmıyoruz**, pazarlama profili
-oluşturmuyoruz ve veri brokerlarıyla paylaşmıyoruz. Bölüm 2.4'te
-listelenen reklam tanımlayıcıları **yalnızca kişiselleştirilmemiş
-reklam ve dolandırıcılık tespiti** için kullanılır; herhangi bir
-izleme SDK'sı, atıf SDK'sı veya kitle segmentasyonu özelliği
-etkinleştirmedik.
+Kişisel verilerinizi satmıyoruz ve sizin için pazarlama profili
+oluşturmuyoruz. Bölüm 2.4'te listelenen reklam tanımlayıcıları
+**yalnızca kişiselleştirilmemiş reklam ve dolandırıcılık tespiti**
+için kullanılır; herhangi bir izleme SDK'sı, atıf SDK'sı veya kitle
+segmentasyonu özelliği etkinleştirmedik.
 
 ---
 
