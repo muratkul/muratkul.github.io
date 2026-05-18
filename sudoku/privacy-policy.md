@@ -3,6 +3,8 @@ layout: default
 title: Privacy Policy
 ---
 
+> **Languages:** **English** · [Türkçe](./privacy-policy-tr) · [Español](./privacy-policy-es)
+
 # Privacy Policy
 
 **Effective date:** May 16, 2026

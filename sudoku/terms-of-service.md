@@ -3,6 +3,8 @@ layout: default
 title: Terms of Service
 ---
 
+> **Languages:** **English** · [Türkçe](./terms-of-service-tr) · [Español](./terms-of-service-es)
+
 # Terms of Service
 
 **Effective date:** May 16, 2026
