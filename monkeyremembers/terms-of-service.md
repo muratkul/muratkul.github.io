@@ -1,5 +1,7 @@
 # Terms of Service
 
+🌐 **English** · [Türkçe](./terms-of-service-tr)
+
 _Last updated: June 3, 2026_
 
 ## 1. Acceptance of Terms

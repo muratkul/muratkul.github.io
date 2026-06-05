@@ -1,5 +1,7 @@
 # Privacy Policy
 
+🌐 **English** · [Türkçe](./privacy-policy-tr)
+
 _Last updated: June 3, 2026_
 
 ## 1. Introduction

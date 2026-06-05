@@ -1,5 +1,7 @@
 # Support
 
+🌐 **English** · [Türkçe](./support-tr)
+
 Need help with **Monkey Remembers**? You're in the right place.
 
 ## Contact
@@ -29,6 +31,11 @@ the alarm time is in the future. Reminders are delivered as local notifications.
 **Is the app free? Do you collect any data?**
 Yes, it's free, and we don't collect your data. See our [Privacy Policy](./privacy-policy) and
 [Terms of Service](./terms-of-service).
+
+## Legal
+
+- **Privacy Policy** — [English](./privacy-policy) · [Türkçe](./privacy-policy-tr)
+- **Terms of Service** — [English](./terms-of-service) · [Türkçe](./terms-of-service-tr)
 
 ---
 
