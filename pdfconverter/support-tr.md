@@ -9,8 +9,8 @@ PDF Dönüştürücü'yü kullandığınız için teşekkürler! Sorularınız v
 
 ## Sıkça Sorulan Sorular
 
-### Belge tarama çalışmıyor / "Tarama desteklenmiyor" yazıyor
-Belge tarama, cihazınızın kamerasını kullanır ve yalnızca kamerası olan gerçek bir iPhone'da çalışır. Simülatörde veya kamerasız ortamlarda bu özellik kullanılamaz.
+### Belge taramayı nasıl yaparım? Kamerasız da olur mu?
+İki yol var: **Kamerayla Tara** (kamerası olan cihazlarda) veya **Fotoğraftan Seç**. Fotoğraftan seçtiğinizde belgenin dört köşesini belirleyebilir (otomatik algılanır, elle de ayarlanır), perspektif düzeltilip temiz bir PDF elde edersiniz. Bu yol kamera gerektirmez; örneğin iPhone'la çektiğiniz bir belgeyi Mac'te seçip tarayabilirsiniz.
 
 ### Premium satın aldım ama özellikler kilitli
 Aynı Apple Kimliği ile giriş yaptığınızdan emin olun, ardından paywall ekranındaki **"Satın alımı geri yükle"** seçeneğine dokunun. Sorun sürerse cihazınızı yeniden başlatıp tekrar deneyin.

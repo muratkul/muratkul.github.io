@@ -9,8 +9,8 @@ Thanks for using PDF Converter! We're here for your questions and feedback.
 
 ## Frequently Asked Questions
 
-### Document scanning doesn't work / it says "Scanning not supported"
-Document scanning uses your device's camera and only works on a real iPhone with a camera. It is not available in the Simulator or on devices without a camera.
+### How do I scan a document? Does it work without a camera?
+There are two ways: **Scan with Camera** (on devices with a camera) or **Choose Photo**. When you choose a photo, you can set the document's four corners (auto-detected, adjustable by hand); the perspective is corrected into a clean PDF. This path needs no camera — for example, you can pick a document photo you took on your iPhone and scan it on your Mac.
 
 ### I purchased Premium but the features are still locked
 Make sure you're signed in with the same Apple ID, then tap **"Restore purchase"** on the paywall screen. If the issue persists, restart your device and try again.
