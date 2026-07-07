@@ -1,20 +1,22 @@
 # SkyPath Terms of Service
 
-*Last updated: 6 July 2026*
+*Last updated: 7 July 2026*
 
 By downloading or playing SkyPath you agree to these terms.
 
 1. **License.** SkyPath is licensed to you for personal, non-commercial use
    on Apple devices you own or control, under the standard
    [Apple Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
-2. **Full Unlock purchase.** The one-time, non-consumable "Full Unlock"
-   purchase permanently unlocks all premium content, current and future, on
-   your Apple ID. It can be restored on any of your devices via
-   *Settings → Restore Purchases*. Payments and refunds are handled by
-   Apple under App Store rules.
-3. **Free content.** All free content can be completed without any
-   purchase. The purchase never affects scoring fairness: game timers always
-   run in simulation time regardless of the speed setting.
+2. **Free version & ads.** The free version shows non-personalized ads,
+   including full-screen interstitials and optional rewarded videos you
+   choose to watch. All free content can be completed without any purchase.
+3. **Full Unlock purchase.** The one-time, non-consumable "Full Unlock"
+   purchase permanently removes all ads and unlocks all premium content —
+   premium airports, the full fleet and the mission modes — current and
+   future, on your Apple ID. It can be restored on any of your devices via
+   *Settings → Restore Purchases*. Payments and refunds are handled by Apple
+   at <https://reportaproblem.apple.com>. The purchase never affects scoring
+   fairness: game timers always run in simulation time.
 4. **Leaderboards.** Game Center scores must come from normal play.
    Manipulated scores may be removed.
 5. **Availability.** The game is provided "as is". We may update, change or
@@ -30,11 +32,13 @@ By downloading or playing SkyPath you agree to these terms.
 
 1. SkyPath, Apple'ın standart son kullanıcı lisansı kapsamında kişisel
    kullanımınız için lisanslanır.
-2. **Tam Erişim** tek seferlik ve kalıcıdır; mevcut ve gelecekteki tüm
-   premium içeriği kapsar. *Ayarlar → Satın Alımları Geri Yükle* ile tüm
-   cihazlarınızda geri yüklenir. Ödeme ve iadeler Apple kurallarına tabidir.
-3. Ücretsiz içeriğin tamamı satın alma olmadan bitirilebilir; satın alma
-   skor adaletini etkilemez.
+2. Ücretsiz sürüm kişiselleştirilmemiş reklam gösterir (tam ekran ve isteğe
+   bağlı ödüllü video); ücretsiz içeriğin tamamı satın alma olmadan
+   bitirilebilir.
+3. **Tam Erişim** tek seferlik ve kalıcıdır; tüm reklamları kaldırır,
+   mevcut ve gelecekteki tüm premium içeriği (premium havalimanları, tüm
+   filo ve görev modları) kapsar. *Ayarlar → Satın Alımları Geri Yükle* ile
+   geri yüklenir. Satın alma skor adaletini etkilemez.
 4. Game Center skorları normal oyundan gelmelidir; manipüle skorlar
    silinebilir.
 5. Oyun "olduğu gibi" sunulur; ödediğiniz içerik uygulama yayında olduğu

@@ -1,64 +1,86 @@
 # SkyPath Privacy Policy
 
-*Last updated: 6 July 2026*
+*Last updated: 7 July 2026*
 
-SkyPath is made by an independent developer. The short version: **the game
-does not collect your data.** There are no ads, no analytics, no tracking
-SDKs and no accounts.
+SkyPath is made by an independent developer. The free version is supported
+by ads; a single one-time purchase removes all ads. We keep data use as
+small as the business allows, and we never sell your data.
 
-## What the app stores
+## What the app stores on your device / iCloud
 
-- **Game progress** (stars, XP, unlocked stages, settings) is stored on your
-  device and — if you are signed in to iCloud — in your personal iCloud
-  key-value storage so your progress can move between your devices. We never
-  see this data; it stays inside your Apple account.
+- **Game progress** (stars, XP, unlocked stages, settings) is stored on
+  your device and — if you are signed in to iCloud — in your personal
+  iCloud key-value storage. We cannot read it; it stays in your Apple
+  account.
 
-## Apple services the app uses
+## Analytics
 
-- **Game Center** (optional): if you are signed in, your career-stars score
-  is submitted to the Game Center leaderboard. This is handled entirely by
-  Apple under the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
-- **In-App Purchase**: the single "Full Unlock" purchase is processed by
-  Apple. We do not receive your payment details.
-- **App Store rating prompt**: shown at most once automatically, via Apple's
-  standard StoreKit prompt.
+We use **Google Firebase Analytics** to understand aggregate gameplay
+(e.g. which stages are too hard, which features are used). It collects
+app-interaction events and device information (model, OS version, app
+version) tied to a random device identifier. We do not send it your name,
+email or any account data — the game has no accounts.
+
+- Firebase privacy: <https://firebase.google.com/support/privacy>
+
+## Advertising (free version only)
+
+Ads are served by **Unity Ads** (Unity Technologies), as full-screen
+interstitials and optional rewarded videos you choose to watch. We request
+**non-personalized ads only**: ads are matched to the app context, not to a
+profile of you, and we do not use Apple's App Tracking Transparency
+framework because we do not track you across apps. To serve and measure
+ads, Unity Ads processes device information, a device-scoped identifier,
+IP address (which implies coarse location) and ad-interaction data.
+
+- Unity Ads privacy: <https://unity.com/legal/game-player-and-app-user-privacy-policy>
+- **Buying "Full Unlock" removes all ads permanently.**
+
+## Apple services
+
+- **Game Center** (optional): leaderboard scores are handled by Apple.
+- **In-App Purchase**: processed by Apple; we never see payment details.
 
 ## What we do NOT do
 
-- No advertising, no ad networks.
-- No third-party analytics or tracking.
-- No collection of personal information, identifiers, or usage data.
-- No accounts, no server of ours receives anything.
+- No selling of personal data.
+- No cross-app tracking, no personalized ad profiles, no ATT prompt.
+- No accounts; no data is stored on servers we operate.
 
 ## Children
 
-SkyPath does not collect data from anyone, including children.
+The game is suitable for all ages; ads are always non-personalized.
 
-## Changes
+## Your choices
 
-If this policy ever changes, the updated version will be published at this
-address with a new date.
+- Buy Full Unlock to remove ads entirely.
+- iOS Settings → Privacy lets you reset the device identifier.
 
-## Contact
+## Changes & contact
 
-Questions? Email **nfvwzhbrbw@privaterelay.appleid.com**.
+Updates will be published at this address with a new date.
+Questions: **nfvwzhbrbw@privaterelay.appleid.com**
 
 ---
 
 # SkyPath Gizlilik Politikası (Türkçe)
 
-*Son güncelleme: 6 Temmuz 2026*
+*Son güncelleme: 7 Temmuz 2026*
 
-Kısa özet: **oyun verinizi toplamaz.** Reklam yok, analitik yok, takip yok,
-hesap yok.
+Ücretsiz sürüm reklam desteklidir; tek seferlik satın alma tüm reklamları
+kaldırır. Verinizi asla satmayız.
 
-- **Oyun ilerlemeniz** (yıldız, XP, ayarlar) cihazınızda ve — iCloud'a
-  girişliyseniz — kendi iCloud alanınızda saklanır. Bu veriyi biz göremeyiz.
-- **Game Center** (isteğe bağlı): skorunuz Apple tarafından, Apple Gizlilik
-  Politikası kapsamında işlenir.
-- **Uygulama içi satın alma** Apple tarafından işlenir; ödeme bilgilerinizi
-  görmeyiz.
-- Reklam ağı, üçüncü taraf analitik veya takip SDK'sı kullanmıyoruz; hiçbir
-  sunucumuza veri gitmez.
+- **Oyun ilerlemeniz** cihazınızda ve kendi iCloud alanınızda saklanır;
+  biz okuyamayız.
+- **Analitik:** Firebase Analytics, oyun içi etkileşim olaylarını ve cihaz
+  bilgisini rastgele bir tanımlayıcıyla toplar. İsim/e-posta gibi kişisel
+  veri gönderilmez; oyunda hesap yoktur.
+- **Reklam (yalnız ücretsiz sürüm):** Unity Ads, **kişiselleştirilmemiş**
+  reklam sunar (tam ekran ve isteğe bağlı ödüllü video); uygulamalar arası
+  takip yapmayız, ATT izni istenmez.
+  Reklam sunumu için cihaz bilgisi, cihaz tanımlayıcısı, IP adresi (kaba
+  konum) ve reklam etkileşim verisi işlenir. **Tam Erişim satın alımı tüm
+  reklamları kalıcı olarak kaldırır.**
+- Game Center ve satın almalar Apple tarafından işlenir.
 
-Sorular için: **nfvwzhbrbw@privaterelay.appleid.com**
+Sorular: **nfvwzhbrbw@privaterelay.appleid.com**
