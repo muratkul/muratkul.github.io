@@ -1,0 +1,295 @@
+/* Laf Cambazı — uygulamanın renk ve tipografisiyle aynı dil.
+   Koyu tema ana tema; açık tema cihaz ayarını izler. */
+
+:root {
+  --gece: #121212;
+  --derin: #1b1b1d;
+  --komur: #26262a;
+  --kum: #f4eddf;
+  --kum-solgun: rgba(244, 237, 223, 0.66);
+  --kum-silik: rgba(244, 237, 223, 0.42);
+  --persimmon: #ff6a45;
+  --altin: #f2b441;
+  --nane: #45e0ae;
+  --cizgi: #32312f;
+
+  --zemin: var(--gece);
+  --yuzey: var(--derin);
+  --metin: var(--kum);
+  --metin-ikincil: var(--kum-solgun);
+  --metin-silik: var(--kum-silik);
+  --ayrac: var(--cizgi);
+
+  --baslik: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --govde: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --zemin: #f4eddf;
+    --yuzey: #fffbf2;
+    --metin: #121212;
+    --metin-ikincil: rgba(18, 18, 18, 0.68);
+    --metin-silik: rgba(18, 18, 18, 0.45);
+    --ayrac: rgba(18, 18, 18, 0.14);
+    --persimmon: #d8431b;
+    --altin: #b07c08;
+    --nane: #18b685;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--zemin);
+  color: var(--metin);
+  font-family: var(--govde);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sayfa {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+/* ---- marka ---- */
+
+.marka {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--baslik);
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.marka-satir {
+  display: block;
+}
+
+.marka-yasak {
+  position: relative;
+  color: var(--persimmon);
+}
+
+/* YASAK'ın üstünü çizen altın çubuk. */
+.marka-yasak::after {
+  content: "";
+  position: absolute;
+  left: -12%;
+  right: -12%;
+  top: 50%;
+  height: 0.1em;
+  border-radius: 999px;
+  background: var(--altin);
+  transform: translateY(-50%) rotate(-2.5deg);
+}
+
+.marka-genis {
+  font-size: 1.22em;
+}
+
+/* ---- başlık bölümü ---- */
+
+.ust {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  padding-bottom: 44px;
+  border-bottom: 1px solid var(--ayrac);
+}
+
+.ust .marka {
+  font-size: 46px;
+}
+
+.etiket {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--metin-silik);
+  margin: 0;
+}
+
+.giris {
+  margin: 0;
+  max-width: 46ch;
+  color: var(--metin-ikincil);
+}
+
+/* ---- içerik ---- */
+
+h1 {
+  font-family: var(--baslik);
+  font-weight: 800;
+  font-size: clamp(32px, 6vw, 44px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin: 0 0 10px;
+  text-wrap: balance;
+}
+
+h2 {
+  font-family: var(--baslik);
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: -0.015em;
+  margin: 40px 0 10px;
+}
+
+p,
+li {
+  color: var(--metin-ikincil);
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+strong {
+  color: var(--metin);
+  font-weight: 600;
+}
+
+ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: var(--metin);
+  text-decoration-color: var(--persimmon);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  color: var(--persimmon);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--altin);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.tarih {
+  font-size: 14px;
+  color: var(--metin-silik);
+  margin: 0 0 36px;
+}
+
+/* Öne çıkan cümle: "hiçbir veri toplanmaz" gibi tek satırlık özetler. */
+.vurgu {
+  background: var(--yuzey);
+  border: 1px solid var(--ayrac);
+  border-left: 3px solid var(--nane);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin: 0 0 28px;
+}
+
+.vurgu p {
+  margin: 0;
+  color: var(--metin);
+  font-weight: 600;
+}
+
+/* ---- kart bağlantıları (ana sayfa) ---- */
+
+.kartlar {
+  display: grid;
+  gap: 14px;
+  margin: 36px 0;
+}
+
+@media (min-width: 620px) {
+  .kartlar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.kart {
+  display: block;
+  background: var(--yuzey);
+  border: 1px solid var(--ayrac);
+  border-radius: 16px;
+  padding: 22px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.kart:hover {
+  border-color: var(--persimmon);
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+.kart h3 {
+  font-family: var(--baslik);
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0 0 6px;
+}
+
+.kart p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* ---- geri bağlantısı ---- */
+
+.geri {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--metin-ikincil);
+  text-decoration: none;
+  margin-bottom: 28px;
+}
+
+.geri:hover {
+  color: var(--persimmon);
+}
+
+/* ---- alt bilgi ---- */
+
+footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--ayrac);
+  font-size: 14px;
+  color: var(--metin-silik);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  align-items: baseline;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

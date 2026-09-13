@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laf Cambazı</title>
+<meta name="description" content="Laf Cambazı — tek telefonla oynanan Türkçe kelime anlatma oyunu. Destek, gizlilik politikası ve kullanım koşulları.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="sayfa">
+
+  <header class="ust">
+    <span class="marka">
+      <span class="marka-satir">LAF</span>
+      <span class="marka-satir marka-yasak">YASAK</span>
+      <span class="marka-satir marka-genis">CAMBAZI</span>
+    </span>
+    <p class="etiket">Türkçe parti oyunu</p>
+    <p class="giris">
+      Kartı takımına anlat, ama kartta yazan beş kelimeyi ağzından kaçırma.
+      Tek telefon yeter; kimsenin uygulamayı indirmesi gerekmez.
+    </p>
+  </header>
+
+  <h2>Oyun nasıl oynanır</h2>
+  <p>
+    Süre başlar, anlatıcı kartı anlatır. Takımı bilirse <strong>+1</strong> puan.
+    Anlatıcı yasaklı kelimelerden birini kullanırsa <strong>−1</strong>.
+    Anlatamadığı kartı pas geçer. Takımlar sırayla anlatır, hedef skora ilk
+    ulaşan kazanır.
+  </p>
+  <p>
+    Her elin sonunda o elde geçen kartlar listelenir; satıra dokununca sonuç
+    doğru, pas ve yasak arasında döner. Masada çıkan “o sayılmaz” tartışması
+    orada biter.
+  </p>
+
+  <h2>Belgeler</h2>
+  <div class="kartlar">
+    <a class="kart" href="gizlilik.html">
+      <h3>Gizlilik Politikası</h3>
+      <p>Uygulama hiçbir kişisel veri toplamaz. Ayrıntılar burada.</p>
+    </a>
+    <a class="kart" href="kosullar.html">
+      <h3>Kullanım Koşulları</h3>
+      <p>Uygulamayı kullanırken geçerli olan basit kurallar.</p>
+    </a>
+  </div>
+
+  <h2>Destek</h2>
+  <p>
+    Bir sorun mu var, bir kart mı yanlış, bir öneriniz mi oldu? Bize yazın:
+    <a href="mailto:DESTEK-EPOSTA">DESTEK-EPOSTA</a>
+  </p>
+  <p>
+    Yazarken cihazınızı (örneğin iPhone 15) ve iOS sürümünüzü eklerseniz
+    daha hızlı yardımcı olabiliriz.
+  </p>
+
+  <h2>Sık sorulanlar</h2>
+  <p>
+    <strong>İnternet gerekiyor mu?</strong><br>
+    Hayır. Bütün kartlar uygulamanın içinde. Uçak modunda da oynayabilirsiniz.
+  </p>
+  <p>
+    <strong>Hesap açmam gerekiyor mu?</strong><br>
+    Hayır. Giriş yok, kayıt yok.
+  </p>
+  <p>
+    <strong>Kaç kişiyle oynanır?</strong><br>
+    En az iki takım gerekir. Üç kişiyle de oynanır, on beş kişiyle de.
+  </p>
+  <p>
+    <strong>Aynı kartlar tekrar geliyor mu?</strong><br>
+    Gördüğünüz kartlar hatırlanır ve havuz tükenene kadar tekrar gelmez.
+    Dilerseniz Ayarlar’dan bu kaydı sıfırlayabilirsiniz.
+  </p>
+
+  <footer>
+    <span>© <span id="yil">2026</span> Laf Cambazı</span>
+    <a href="gizlilik.html">Gizlilik</a>
+    <a href="kosullar.html">Koşullar</a>
+  </footer>
+
+</main>
+<script>
+  document.getElementById("yil").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
