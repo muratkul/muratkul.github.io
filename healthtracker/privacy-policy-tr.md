@@ -2,20 +2,22 @@
 
 🌐 [English](./privacy-policy) · **Türkçe**
 
-_Son güncelleme: 31 Ekim 2026_
+_Son güncelleme: 1 Kasım 2026_
 
 ## 1. Giriş
 
 Sağlık Takibi & Widget ("Health Tracker", "uygulama", "biz") günlük adım, yürüme + koşu
-mesafesi ve egzersiz dakikalarını; hedeflerine ulaşman için widget'lar ve hatırlatmalarla
+mesafesi ve egzersiz dakikalarını; widget'lar, hatırlatmalar ve isteğe bağlı bir sıralama ile
 gösterir. Bu politika, uygulamanın bilgilerini nasıl kullandığını sade bir dille anlatır.
 
-Kısaca: Sağlık verilerin iPhone'unda kalır. Sunucumuz yok, hiçbir veri toplamıyoruz ve
-verilerini göremeyiz.
+Kısaca: Apple Sağlık verilerin iPhone'unda kalır. Yalnızca giriş yapıp sıralama için
+paylaşımı açarsan, arkadaşlarının (istersen herkesin) görebilmesi için küçük bir haftalık özet
+sunucumuzda saklanır. Paylaşımı istediğin an durdurabilir ya da hesabını uygulamanın içinden
+silebilirsin.
 
 Sorular için: murat.kul.dev@icloud.com
 
-## 2. Sağlık Verileri
+## 2. Cihazındaki Sağlık Verileri
 
 İznin olursa uygulama Apple Sağlık'tan (HealthKit) üç tür veriyi **okur**:
 
@@ -23,39 +25,64 @@ Sorular için: murat.kul.dev@icloud.com
 - Yürüme + koşu mesafesi
 - Egzersiz dakikaları
 
-Uygulama Apple Sağlık'a **hiçbir veri yazmaz**.
+Uygulama Apple Sağlık'a **hiçbir veri yazmaz**. Bu veriler cihazında hedeflerini,
+trendlerini, serilerini, widget'larını ve hatırlatmalarını göstermek için kullanılır. Ayrıntılı
+Sağlık verileri (tek tek ölçümler, saatlik ya da günlük değerler) **cihazından asla çıkmaz** ve
+iCloud'da **saklanmaz**.
 
-Bu veriler yalnızca cihazında; hedeflerini, trendlerini, serilerini, widget'larını ve
-hatırlatmalarını göstermek için kullanılır. Bize ya da başka birine **gönderilmez**,
-iCloud'da **saklanmaz** ve reklam, pazarlama veya veri madenciliği için **asla** kullanılmaz.
+Widget'ları gösterebilmek için uygulama küçük bir günlük özeti (son birkaç haftanın yukarıdaki
+toplamları) ve hedef ayarlarını cihazında tutar. Uygulamayı silmek bu verileri de siler.
 
-Uygulamanın erişimini istediğin zaman *Ayarlar → Sağlık → Veri Erişimi ve Aygıtlar →
+Uygulamanın Sağlık erişimini istediğin zaman *Ayarlar → Sağlık → Veri Erişimi ve Aygıtlar →
 Health Tracker* bölümünden değiştirebilir ya da kaldırabilirsin.
 
-## 3. Cihazda Saklanan Veriler
+## 3. Sıralama (İsteğe Bağlı)
 
-Widget'ları gösterebilmek için uygulama küçük bir günlük özeti (son 31 günün yukarıdaki
-toplamları) ve hedef ayarlarını cihazında, yalnızca uygulama ile widget'larının paylaştığı
-bir alanda tutar. Uygulamayı silmek bu verileri de siler.
+Sıralama, giriş yapıp paylaşımı açana kadar kapalıdır. Kullanırsan:
 
-## 4. Bildirimler
+**Hesap.** **Apple ile Giriş Yap** ile giriş yaparsın. Bir kullanıcı kimliği ve izin verirsen
+adın ile bir e-posta adresi (Apple'ın gizli yönlendirme adresi olabilir) bize iletilir. Adın
+yalnızca önerilen görünen ad olarak kullanılır; değiştirebilirsin.
 
-Hatırlatmalar ve "hedefe ulaşıldı" bildirimleri cihazında oluşturulan **yerel
-bildirimlerdir**; arada sunucu yoktur. Uygulamadan (Hedefler → Hatırlatmalar) ya da
-*Ayarlar → Bildirimler → Health Tracker* bölümünden kapatabilirsin.
+**Paylaşılanlar.** Paylaşım açıkken uygulama sunucumuzda şunları saklar:
 
-## 5. Paylaşım
+- Görünen adın ve 6 karakterlik arkadaş kodun
+- Her hafta için: toplam adım, yürüme + koşu mesafesi ve egzersiz dakikan, ortalama hedef
+  yüzden ve güncel serin
+- Arkadaş listen (kodunu ekleyenler ya da kodunu eklediklerin)
+- Genel ("Herkes") sıralamada görünmeyi seçip seçmediğin
 
-**Paylaş**'a dokunursan uygulama kısa bir mesajla ("Bugün adım hedefimi tamamladım!" gibi)
-iOS'un standart paylaşım ekranını açar. Sen nereye göndereceğini seçmedikçe hiçbir şey
-gönderilmez.
+**Kim görebilir.** Arkadaşların görünen adını ve haftalık özetini görebilir. "Beni herkese
+göster"i açarsan, uygulamaya giriş yapmış her kullanıcı genel sıralamada görünen adını ve
+haftalık özetini görebilir. Kimse bu haftalık özetin ötesinde Sağlık verilerini göremez.
 
-## 6. Yapmadıklarımız
+**Bildirimler.** Biri genel sıralamadaki bir görünen adı bildirirse, uygunsuz adları
+kaldırabilmek için bildirilen adı, bildiren kişinin kullanıcı kimliğini ve zamanı saklarız.
 
-- Hesap ya da giriş yok
-- Analitik, takip veya reklam SDK'sı yok
-- Verilerin üçüncü taraflara satılması ya da paylaşılması yok
-- Çocuklardan veri toplanması yok
+**Durdurma ve silme.** "Paylaşımı durdur" bu haftaki özetini tüm sıralamalardan kaldırır ve yeni
+yüklemeleri durdurur. "Hesabı sil" (Sıralama → Ayarlar) profilini, arkadaş kodunu, arkadaş
+bağlantılarını ve saklanan tüm haftalık özetleri kalıcı olarak siler ve Apple ile Girişi iptal
+eder.
+
+## 4. Verilerin Saklandığı Yer
+
+Sıralama verileri, hizmet sağlayıcımız **Google Firebase** (Firebase Authentication ve Cloud
+Firestore) üzerinde, Avrupa Birliği'nde (europe-west bölgesi) saklanır. Veriler aktarım
+sırasında şifrelenir. Ayrıntılar: [Firebase gizlilik bilgileri](https://firebase.google.com/support/privacy).
+
+## 5. Yapmadıklarımız
+
+- Sağlık ya da sıralama verilerini reklam, pazarlama veya veri madenciliği için kullanmayız.
+- Yukarıda anlatıldığı gibi Firebase'de saklamak dışında verileri üçüncü taraflara satmayız ya
+  da paylaşmayız.
+- Analitik, takip veya reklam SDK'sı yok.
+- Uygulama 13 yaşından küçük çocuklara yönelik değildir.
+
+## 6. Bildirimler ve Paylaşım
+
+Hatırlatmalar ve "hedefe ulaşıldı" bildirimleri cihazında oluşturulan **yerel bildirimlerdir**.
+**Paylaş**'a dokunursan uygulama iOS'un standart paylaşım ekranını açar; sen nereye
+göndereceğini seçmedikçe hiçbir şey gönderilmez.
 
 ## 7. Değişiklikler
 

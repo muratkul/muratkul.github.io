@@ -37,4 +37,28 @@ message a day.
 iOS controls background activity, so a reminder can arrive later within its time slot.
 
 **Is my Health data uploaded anywhere?**
-No. Everything stays on your iPhone. See our [Privacy Policy](./privacy-policy).
+Not unless you use the leaderboard. Detailed Health data always stays on your iPhone. If you
+sign in and turn on sharing, only a weekly summary (total steps, distance, exercise minutes,
+goal percentage and streak) is stored so friends can see it. See our [Privacy Policy](./privacy-policy).
+
+## Leaderboard
+
+**How do I add a friend?**
+Open *Leaderboard → Add friend*. Share your 6-character code, or type your friend's code. You'll
+both see each other's weekly summary.
+
+**How do I appear on the global board?**
+*Leaderboard → Settings → Show me to everyone*. Only your display name and weekly summary are
+shown. Turn it off at any time.
+
+**How do I change my name?**
+*Leaderboard → Settings → Display name*.
+
+**Someone has an offensive name.**
+Long-press their row on the global board and choose *Report name*, or *Hide* to remove them
+from your list.
+
+**How do I stop sharing or delete my account?**
+*Leaderboard → Settings → Stop sharing* removes this week's summary from all boards.
+*Delete account* permanently deletes your profile, friends and all summaries and revokes Sign in
+with Apple. You can also email us to request deletion.

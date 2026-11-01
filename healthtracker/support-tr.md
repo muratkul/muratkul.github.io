@@ -39,4 +39,29 @@ Arka plan çalışmasını iOS yönetir; bu yüzden hatırlatma, zaman dilimi i�
 gelebilir.
 
 **Sağlık verilerim bir yere yükleniyor mu?**
-Hayır. Her şey iPhone'unda kalır. [Gizlilik Politikası](./privacy-policy-tr)'na göz at.
+Sıralamayı kullanmadığın sürece hayır. Ayrıntılı Sağlık verileri her zaman iPhone'unda kalır.
+Giriş yapıp paylaşımı açarsan, arkadaşlarının görebilmesi için yalnızca haftalık bir özet
+(toplam adım, mesafe, egzersiz dakikası, hedef yüzdesi ve seri) saklanır.
+[Gizlilik Politikası](./privacy-policy-tr)'na göz at.
+
+## Sıralama
+
+**Nasıl arkadaş eklerim?**
+*Sıralama → Arkadaş ekle*'yi aç. 6 karakterlik kodunu paylaş ya da arkadaşının kodunu yaz.
+İkiniz de birbirinizin haftalık özetini görürsünüz.
+
+**Genel sıralamada nasıl görünürüm?**
+*Sıralama → Ayarlar → Beni herkese göster*. Yalnızca görünen adın ve haftalık özetin görünür.
+İstediğin zaman kapatabilirsin.
+
+**Adımı nasıl değiştiririm?**
+*Sıralama → Ayarlar → Görünen ad*.
+
+**Birinin adı uygunsuz.**
+Genel sıralamada satırına uzun bas ve *İsmi bildir*'i seç ya da listenden kaldırmak için
+*Gizle*'ye dokun.
+
+**Paylaşımı nasıl durdururum ya da hesabımı nasıl silerim?**
+*Sıralama → Ayarlar → Paylaşımı durdur* bu haftaki özetini tüm sıralamalardan kaldırır.
+*Hesabı sil* profilini, arkadaşlarını ve tüm özetleri kalıcı olarak siler ve Apple ile Girişi
+iptal eder. Silme talebini e-postayla da iletebilirsin.
